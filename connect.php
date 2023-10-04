@@ -10,7 +10,8 @@
                 $host = "localhost";
                 $db_user = "root";
                 $db_password = "";
-                $dbname = "project2";
+                // Database Name
+                $dbname = "";
 
                 // Create Connection
                 $conn = new mysqli($host, $db_user, $db_password, $dbname);
